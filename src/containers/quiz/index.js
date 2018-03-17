@@ -5,12 +5,8 @@ import { connect } from 'react-redux'
 
 const Quiz = props => (
   <div>
-    <h1>Question</h1>
-    <h2>Option</h2>
-    <h2>Option</h2>
-    <h2>Option</h2>
-    <h2>Option</h2>
-    <button onClick={() => props.changePage()}>Submit</button>
+    <h1> Enter your favorite pitcher's name:</h1>
+    <button onClick={() => props.changePage()}>Next</button>
   </div>
 )
 

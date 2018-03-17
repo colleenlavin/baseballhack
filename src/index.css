@@ -2,4 +2,47 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  text-align: center;
+}
+h1{
+  font-family: 'Cairo', sans-serif;
+}
+h2{
+  font-family: 'Crete Round', serif;
+}
+
+h3{
+  font-family: 'Crete Round', serif;
+}
+
+h4{
+  font-family: 'Crete Round', serif;
+}
+
+h5{
+  font-family: 'Crete Round', serif;
+}
+
+h6{
+  font-family: 'Crete Round', serif;
+}
+button {
+  background-color: rgb(11, 61, 13);
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+.mainBox{
+  border-radius: 15px;
+  background: rgb(119, 121, 118);
+  padding: 20px; 
+  width: 70%;
+  height: 100%; 
+  align-self: center;
 }

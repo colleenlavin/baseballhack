@@ -1,9 +1,21 @@
 
 import React from 'react'
+import { push } from 'react-router-redux'
+import { bindActionCreators } from 'redux'
+import { connect } from 'react-redux'
 
-export default () => (
+const Formula = props => (
   <div>
-    <h1>Basic Formula</h1>
-    <p>blahblahblah</p>
+    <h1>Question</h1>
+    <button onClick={() => props.changePage()}>Try it out!</button>
   </div>
 )
+
+const mapDispatchToProps = dispatch => bindActionCreators({
+  changePage: () => push('/instructions')
+}, dispatch)
+
+export default connect(
+  null, 
+  mapDispatchToProps
+)(Formula)

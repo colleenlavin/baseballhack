@@ -7,14 +7,11 @@ import Instructions from '../instructions'
 import Formula from '../formula'
 import Quiz from '../quiz'
 import Results from '../results'
+import Header from '../header'
 
 const App = () => (
   <div>
-    <header>
-      <Link to="/">Home</Link>
-      <Link to="/about-us">About</Link>
-      <Link to="/instructions">Instructions</Link>
-    </header>
+   <Header/>
 
     <main>
       <Route exact path="/" component={Home} />
