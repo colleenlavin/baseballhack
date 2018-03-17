@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 
 const Instructions = props => (
-  <div>
+  <div className="container">
     <h1>How to play:</h1>
     <h2>1</h2>
     <h2>2</h2>
