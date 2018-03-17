@@ -5,7 +5,10 @@
     border-bottom: 1px solid #e5e5e5;
     color: #fff;
     font-family: 'Patua One', cursive;
-    font-size: 32px
+    font-size: 32px;
+    background:#062D51;
+    height: 100%;
+    
 }
 
 /* Make the masthead heading the same height as the navigation */

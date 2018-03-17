@@ -3,7 +3,7 @@ import { push } from 'react-router-redux'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 
-const Q1 = props => (
+const Q3 = props => (
   <div>
     <h1>Based on the pitcher's 5 last games, what's the pitcher's average strike per game. </h1>
     <input type="text"></input>
@@ -12,10 +12,10 @@ const Q1 = props => (
 )
 
 const mapDispatchToProps = dispatch => bindActionCreators({
-  changePage: () => push('/q2')
+  changePage: () => push('/results')
 }, dispatch)
 
 export default connect(
   null, 
   mapDispatchToProps
-)(Q1)
+)(Q3)
