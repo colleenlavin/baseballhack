@@ -5,7 +5,7 @@ import { connect } from 'react-redux'
 
 const Q2 = props => (
   <div>
-    <h1>Based on the pitcher's 5 last games, what's the pitcher's average strike per game. </h1>
+    <h1>Based on the pitcher's 5 last games, what's the pitcher's median foul ball per game. </h1>
     <input type="text"></input>
     <button onClick={() => props.changePage()}>Next</button>
   </div>
