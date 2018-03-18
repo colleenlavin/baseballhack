@@ -2,10 +2,12 @@
 
 .header {
     padding-bottom: 20px;
+    padding: 20px;
     border-bottom: 1px solid #e5e5e5;
     color: #fff;
-    font-family: 'Patua One', cursive;
-    font-size: 32px;
+    font-family: 'Mina', sans-serif;
+    font-size: 100%;
+    font-weight: bold;
     background:#062D51;
     height: 100%;
     
