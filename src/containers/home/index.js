@@ -8,7 +8,7 @@ const Home = props => (
 
   <div className="mainBox">
     <h1>When am I ever going to use math?</h1>
-    <img src="http://throughthefencebaseball.com/wp-content/uploads/2013/10/baseball-and-stats2.jpg" />
+    <img src="http://mopress.com/wp-content/uploads/2017/06/Baseball-Photo.jpg" />
     <button onClick={() => props.changePage()}>What does any of this mean?</button>
   </div>
 )

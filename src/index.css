@@ -5,9 +5,9 @@ body {
   text-align: center;
 }
 button {
-  background-color: rgb(255, 255, 255);
+  background-color:  rgb(2, 12, 44);
   border: none;
-  color: rgb(2, 12, 44);
+  color:#ffffff;
   padding: 20px;
   text-align: center;
   text-decoration: none;
@@ -21,7 +21,7 @@ button {
 body {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #1d427c;
+  background-color: #ffffff;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -32,6 +32,10 @@ body {
   padding-left: 15px;
 }
 
+.footer{
+  margin-top: 15%;
+ 
+}
 
 
 /* Custom page footer */

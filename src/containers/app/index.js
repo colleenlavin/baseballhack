@@ -11,6 +11,7 @@ import Q2 from '../q1'
 import Q3 from '../q1'
 import Results from '../results'
 import Header from '../header'
+import Footer from '../footer'
 
 const App = () => (
   <div>
@@ -28,6 +29,7 @@ const App = () => (
       <Route exact path="/results" component={Results} />
 
     </main>
+    <Footer />
   </div>
 )
 export default App
